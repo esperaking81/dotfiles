@@ -1,0 +1,11 @@
+[user]
+	email = esperah.awo@mehriso.com
+	name = Esperah AWO
+[pull]
+	rebase = false
+[mergetool "fugitive"]
+	cmd = nvim -f -c \"Gvdiffsplit!\" \"$MERGED\"
+[merge]
+	tool = fugitive
+[init]
+	defaultBranch = main
